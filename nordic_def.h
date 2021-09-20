@@ -1,0 +1,11 @@
+
+
+
+#define NORDIC_COMMAND_ACK      0x01
+#define NORDIC_COMMAND_NACK     0xff
+#define NORDIC_COMMAND_DELAYED  0x02
+
+#define NORDIC_COMMAND_ERROR 0x80
+#define NORDIC_COMMAND_OK    0x40
+#define TX_SYNC_CHAR       0x3E
+#define RX_SYNC_CHAR       0x3C
